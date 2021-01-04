@@ -348,11 +348,13 @@
 #define __NR_fspick 433
 #define __NR_pidfd_open 434
 #define __NR_clone3 435
+#define __NR_close_range 436
 #define __NR_openat2 437
 #define __NR_pidfd_getfd 438
+#define __NR_faccessat2 439
 
 #ifdef __KERNEL__
-#define __NR_syscall_max 438
+#define __NR_syscall_max 439
 #endif
 
 #endif /* _ASM_X86_UNISTD_64_H */
